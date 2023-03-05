@@ -1,0 +1,26 @@
+// Ex 7-1.cpp in this exercise you will use what you learned about opening a file 
+and reading input
+//Read and follow the comments submit your code through the Exercise one quiz
+#include <fstream>
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+   //this is the code for exercise 7-1
+   ifstream data_in; 
+   data_in.open("myDVDFile.dat"); 
+   string dvdName, dvdPrice, dvdShelf;
+   data_in >> dvdShelf;
+   data_in >> dvdPrice;
+   data_in >> dvdName;
+    Fargo
+    8.00
+    1A
+    Amadaus 
+    2.00
+    2C
+    Casino
+    7.50
+    3B 
+} // End of main function
